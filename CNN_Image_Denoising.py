@@ -223,9 +223,9 @@ print ('Residual Test Patches Shape:', residual_patches_test.shape)
 # ### Common info
 input_shape = (img_x, img_y, 1)
 kernel_size = (3,3)
-depth = 3 #To be changed to 17
+depth = 17
 batch_size = 128
-epoch = 1 #ToBeChanged to 50
+epoch = 50
 
 # ### Optimizers
 sgd = SGD(momentum=0.9, decay=.001)
